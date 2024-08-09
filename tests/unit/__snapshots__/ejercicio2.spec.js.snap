@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test 2 de vista 'Contact' Test 2.1 - Snapshot vista 'Contact' 1`] = `
+<div>
+  <h1>contact</h1>
+  <nav>
+    <router-link to="/">ir al Home</router-link>
+  </nav>
+</div>
+`;
+
+exports[`Test 2 de vista 'Contact' Test2 - Prueba existencia del componente en la ruta 1`] = `
+<div>
+  <h1>contact</h1>
+  <nav><a href="/" class="">ir al Home</a></nav>
+</div>
+`;
+
+exports[`Test vista 'About' Test 1 - Snapshot vista 'About' succesful 1`] = `
+<div>
+  <h1>about</h1>
+  <nav>
+    <router-link to="/">ir al Home</router-link>
+  </nav>
+</div>
+`;
+
+exports[`Test vista 'About' Test 1.2 - Prueba existencia del componente en la ruta 1`] = `
+<div>
+  <h1>about</h1>
+  <nav><a href="/" class="">ir al Home</a></nav>
+</div>
+`;
+
+exports[`Test vista 'Home' Test 3 - Snapshot vista 'Home' succesful 1`] = `
+<div class="home">
+  <h1>Pruebas</h1>
+  <hr><br>
+  <section>
+    <h2 class="titles">Ejercicio 1</h2>
+    <h2>Contador</h2>
+    <p class="counter">0</p>
+    <div><button class="btn primary">+1</button><button class="btn warning">-1</button></div>
+  </section><br>
+  <hr>
+  <section>
+    <h2 class="titles">Ejercicio 2</h2>
+    <h3 for="">Rutas del "Router"</h3>
+    <nav>
+      <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> | <router-link to="/contact">Contact</router-link>
+    </nav>
+  </section><br>
+  <hr>
+  <section>
+    <h2 class="titles">Ejercicio 3</h2>
+    <div>
+      <div>
+        <form action=""><input placeholder="Escriba algo" type="text"><button type="submit">Enviar</button></form>
+      </div><br>
+      <p>Texto recibido: </p>
+    </div>
+  </section><br>
+  <hr>
+  <div class="footer">
+    <h2>Prueba - Desarrollo de aplicaciones front-end con framework Vue</h2><br>
+    <h3>Realizado por Nicolás Valderrama</h3>
+  </div>
+</div>
+`;
+
+exports[`Test vista 'Home' Test 3.1 - Prueba existencia del componente en la ruta 1`] = `
+<div class="home">
+  <h1>Pruebas</h1>
+  <hr><br>
+  <section>
+    <h2 class="titles">Ejercicio 1</h2>
+    <h2>Contador</h2>
+    <p class="counter">0</p>
+    <div><button class="btn primary">+1</button><button class="btn warning">-1</button></div>
+  </section><br>
+  <hr>
+  <section>
+    <h2 class="titles">Ejercicio 2</h2>
+    <h3 for="">Rutas del "Router"</h3>
+    <nav><a aria-current="page" href="/" class="router-link-active router-link-exact-active">Home</a> | <a href="/about" class="">About</a> | <a href="/contact" class="">Contact</a></nav>
+  </section><br>
+  <hr>
+  <section>
+    <h2 class="titles">Ejercicio 3</h2>
+    <div>
+      <div>
+        <form action=""><input placeholder="Escriba algo" type="text"><button type="submit">Enviar</button></form>
+      </div><br>
+      <p>Texto recibido: </p>
+    </div>
+  </section><br>
+  <hr>
+  <div class="footer">
+    <h2>Prueba - Desarrollo de aplicaciones front-end con framework Vue</h2><br>
+    <h3>Realizado por Nicolás Valderrama</h3>
+  </div>
+</div>
+`;

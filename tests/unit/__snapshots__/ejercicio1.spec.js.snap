@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test1 - ContadorComponent Test1 - Se recibe un valor inicial de 0 en el contador. 1`] = `
+<h2>Contador</h2>
+<p class="counter">0</p>
+<div><button class="btn primary">+1</button><button class="btn warning">-1</button></div>
+`;
+
+exports[`Test2 - ContadorComponent Test 2 - Debe incrementar el contador en 1 cuando se hace click en el botón +1 1`] = `
+<h2>Contador</h2>
+<p class="counter">1</p>
+<div><button class="btn primary">+1</button><button class="btn warning">-1</button></div>
+`;
+
+exports[`Test2 - ContadorComponent Test2 - Debe decrementar el contador en 1 cuando se hace click en el botón -1 1`] = `
+<h2>Contador</h2>
+<p class="counter">-1</p>
+<div><button class="btn primary">+1</button><button class="btn warning">-1</button></div>
+`;
