@@ -6,18 +6,18 @@
       <h2 class="titles">Ejercicio 1</h2>
       <ContadorComponent />
     </section>
-    <br />
     <hr />
     <section>
       <h2 class="titles">Ejercicio 2</h2>
-      <h3 for="">Rutas del "Router"</h3>
-      <nav>
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <router-link to="/contact">Contact</router-link>
-      </nav>
+      <div class="exercise-2">
+        <h3 for="">Rutas del "Router"</h3>
+        <nav>
+          <router-link to="/">Home</router-link> |
+          <router-link to="/about">About</router-link> |
+          <router-link to="/contact">Contact</router-link>
+        </nav>
+      </div>
     </section>
-    <br />
     <hr />
     <section>
       <h2 class="titles">Ejercicio 3</h2>
@@ -25,14 +25,12 @@
     </section>
     <br />
     <hr />
-
   </div>
 </template>
 
 <script>
 import ContadorComponent from "@/components/ContadorComponent.vue";
 import ParentComponent from "@/components/ParentComponent.vue";
-
 
 export default {
   name: "HomeView",
@@ -47,6 +45,12 @@ export default {
 .titles {
   margin-left: 4rem;
   text-align: left;
+  padding-top: 1.5%;
+}
+
+.exercise-2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 h1 {

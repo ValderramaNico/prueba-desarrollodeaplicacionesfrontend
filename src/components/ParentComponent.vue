@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <ChildComponent @sent-text="displayText" />
+  <div class="parent-component">
+    <ChildComponent  @sent-text="displayText" />
     <br>
     <p>Texto recibido: {{ receivedText }}</p>
   </div>
@@ -26,4 +26,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+
+.parent-component{ 
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+</style>

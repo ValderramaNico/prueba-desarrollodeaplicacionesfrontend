@@ -1,10 +1,12 @@
 <template>
-  <h2>{{ tituloApp }}</h2>
-  <p class="counter">{{ contador }}</p>
+  <div class="main-counter">
+    <h2>{{ tituloApp }}</h2>
+    <p class="counter">{{ contador }}</p>
 
-  <div>
-    <button class="btn primary" v-on:click="incrementar">+1</button>
-    <button class="btn warning" v-on:click="disminuir">-1</button>
+    <div>
+      <button class="btn primary" v-on:click="incrementar">+1</button>
+      <button class="btn warning" v-on:click="disminuir">-1</button>
+    </div>
   </div>
 </template>
 
@@ -42,6 +44,13 @@ export default {
 </script>
 
 <style>
+
+.main-counter {
+  padding-top: 2%;
+  padding-bottom: 4%;
+
+}
+
 .btn {
   border-radius: 1rem;
   margin: 0 5px;
