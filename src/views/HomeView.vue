@@ -2,7 +2,6 @@
   <div class="home">
     <h1>Pruebas</h1>
     <hr />
-    <br />
     <section>
       <h2 class="titles">Ejercicio 1</h2>
       <ContadorComponent />

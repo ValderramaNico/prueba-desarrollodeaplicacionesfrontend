@@ -19,6 +19,6 @@ export default {};
   justify-content: center;
   background-color: rgb(41, 32, 102);
   color: white;
-  height: 14.2rem;
+  height: 20rem;
 }
 </style>
