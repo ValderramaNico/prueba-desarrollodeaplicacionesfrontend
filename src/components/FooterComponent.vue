@@ -11,12 +11,14 @@ export default {};
 </script>
 
 <style scoped>
+
+
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: rgb(41, 32, 102);
   color: white;
-  height: 9.5rem;
+  height: 14.2rem;
 }
 </style>

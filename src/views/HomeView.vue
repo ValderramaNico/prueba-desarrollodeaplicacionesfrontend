@@ -26,21 +26,20 @@
     </section>
     <br />
     <hr />
-    <FooterComponent />
+
   </div>
 </template>
 
 <script>
 import ContadorComponent from "@/components/ContadorComponent.vue";
 import ParentComponent from "@/components/ParentComponent.vue";
-import FooterComponent from "@/components/FooterComponent.vue";
+
 
 export default {
   name: "HomeView",
   components: {
     ContadorComponent,
     ParentComponent,
-    FooterComponent
   },
 };
 </script>
@@ -49,5 +48,9 @@ export default {
 .titles {
   margin-left: 4rem;
   text-align: left;
+}
+
+h1 {
+  margin-bottom: 3%;
 }
 </style>

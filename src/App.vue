@@ -1,13 +1,28 @@
 <template>
-  <router-view />
+  <router-view class="default-page" />
+  <FooterComponent />
 </template>
+
+<script>
+import FooterComponent from "@/components/FooterComponent.vue";
+
+export default {
+  components: {
+    FooterComponent,
+  },
+};
+</script>
 
 <style>
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.default-page {
+  margin-top: 3%;
 }
 
 #app {
